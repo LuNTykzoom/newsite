@@ -1,0 +1,32 @@
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background-color: lightcyan;
+}
+.header {
+	color : red;
+
+}
+.header_box{
+
+	padding: 50px;
+	margin: 25px auto;
+	max-width: 50%;
+	border-radius : 30px;
+	overflow: hidden;
+	background-color: lightsteelblue;
+	box-shadow : 5px 5px 10px 5px steelblue;
+}
+.image{
+	display: block;
+	position: relative;
+	width: 60%;
+	margin : 25px auto;
+	border-radius : 30px;
+	overflow: hidden;
+	background-color: lightsteelblue;
+	box-shadow : 5px 5px 10px 5px steelblue;
+}
